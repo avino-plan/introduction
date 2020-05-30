@@ -13,8 +13,8 @@
 
 ### 捐助
 如果您觉得我们的开源软件对你有所帮助，请扫下方二维码打赏我们一杯咖啡。
-![微信支付](https://images.gitee.com/uploads/images/2020/0530/230159_7f3daaab_2065430.png "wechat-pay.png")
-![支付宝](https://images.gitee.com/uploads/images/2020/0530/230220_56548355_2065430.jpeg "ali-pay.jpg")
+![微信支付](./_icon/wechat-pay.png)
+![支付宝](./_icon/ali-pay.jpg)
 
 ### 联系
 QQ: 1149062639
