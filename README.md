@@ -13,8 +13,8 @@
 
 ### 捐助
 如果您觉得我们的开源软件对你有所帮助，请扫下方二维码打赏我们一杯咖啡。
-![微信支付](./_icon/wechat-pay.png)
-![支付宝](./_icon/ali-pay.jpg)
+![微信支付](./_icon/wechat-pay.png){:height="50%" width="50%"}
+![支付宝](./_icon/ali-pay.png){:height="50%" width="50%"}
 
 ### 联系
 QQ: 1149062639
