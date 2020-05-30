@@ -1,21 +1,23 @@
-### 组织介绍
-#### 艾维诺计划旨在为 **小型网站** 提供开箱即用的通用服务！让小型网站也能服务化，更专注于业务模块的开发和迭代！
+### Avino-Plan Introduction
+#### Avino plan is for **small websites** which need some easy-to-use common services! Let small websites have a chance to be service-oriented, and their companies have a chance to focus on real services. 
 
-> 我们并不是在创造支持百万并发的大型服务，我们仅仅是给小型网站做一些简单且可用的通用服务。
+> We are not creatig some huge services for supporting millions of requests, but some simple and useable common services.
 
-这些小型网站的通用服务往往只需要很基础的功能，更要求使用简洁和低维护成本，对于并发量要求也不高，但是
+Some small websites only need some common services having based features, and they want simpler and less maintenance cost.
+They don't need some high-performance common services but 
 
-### 他们正在使用
-（暂无）
+### Who Is Using
+(coming soon)
 
-### 如何加入
-请发送申请邮件至 fishgoddess@qq.com。
+### Join Us
+Please send an email with your information to fishgoddess@qq.com。
 
-### 捐助
-如果您觉得我们的开源软件对你有所帮助，请扫下方二维码打赏我们一杯咖啡。
-![微信支付](./_icon/wechat-pay.png)
-![支付宝](./_icon/ali-pay.png)
+### Donate Us
+If you like what we are doing and want to support us, donate us a cup of coffee with qr-code here:
 
-### 联系
+![wechat-pay](./_icon/wechat-pay.png)
+![ali-pay](./_icon/ali-pay.png)
+
+### Contact Us
 QQ: 1149062639
-邮箱: fishgoddess@qq.com
+Email: fishgoddess@qq.com
