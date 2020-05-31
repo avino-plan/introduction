@@ -1,36 +1,24 @@
-### Avino-Plan Introduction
+### Introduction
 #### Avino plan is for **small projects** which need some easy-to-use common services! Let small projects have a chance to be service-oriented, and their developers have a chance to focus on real services. 
 
 > We are not creatig some huge services for supporting millions of requests, but some simple and useable common services.
 
-一些公司项目的主业务可能不多，但是因为涉及到一些通用的功能所以导致整体的业务比较多。
-其中一些功能完全可以抽取出来成为一个独立的服务，这样维护起来也更方便，但是小型网站可能由于人员、成本或者时间等因素没办法做到这点。
+Some companies' projects don't have much business, but some common features make the projects so huge. If some features are extracted to independent services, then they will have lower maintenance cost. However, small projects can't do this because of members, cost or time. More importantly, these services only need some based features, and don't need a high performance. All they need is to be easy-to-use and less maintenance cost.
 
-Some small projects only need some common services having based features, and they want simpler and less maintenance cost.
-They don't need some high-performance common services but 
+Avino plan is for this small projects! We provide some common based services, including file, email, laod balance, log collection and automatical cache. All services is as easily as possible, and have two ways to install, one is binary and the other one is docker.
 
-更重要的是这些通用的服务往往只需要很基础的功能，对于并发量要求也不高，只需要使用简单和维护成本比较低即可。
-艾维诺计划就是专门为这些小型项目而设立的！我们提供了一些常用的基础服务，包括但不限于文件存储、邮件、负载均衡、日志收集、自动化缓存等。
+PS: 
+> [fishgoddess] Something extra. Remember my first-working company when I am a sophomore has less than 100 members, and one member will do all kinds of developing tasks. 
+> In this situation, can this company see tomorrow's sun is a problem, so they don't have enough energy to handle the code and architecture, and they need some easy-to-use common services.
+> Actually, there are many IT company like my first-working company. At first, they develop a monomer application, and the quality of code is bad.
+> You know, this is not a fault because of money, and there is no need to design a huge microservice architecture at first.
+> However, some common features is used by many companies, which can be extracted to some independent services.
+> For example, you need an email feature, and extract it to an email service with http interface, then you can extend it easily by nginx.
 
-所有的服务都是尽可能地让使用更加简单，维护更加方便，除了提供基础的二进制包部署之外，还会提供 docker 的部署方式，尽可能简化服务的安装流程。
+> I have to emphasize again, all projects in this plan are not for supporting millions of requests (If you have a project supporting millions of requests, your project has already had own common services), but for some small projects that need some common features in a short time.
+> Suppose you are about to create a project with file and email features, then you can use services in this plan. Just installing them and you can integrate them into your project even without one more code about file and email.
 
-PS：
-[fishgoddess] 这里插个题外话，回想起我大二第一间实习的公司，整个公司加起来还不够 100 人，基本就是一个人从前端到后端还有测试运维全包了。
-在这种情况下，公司能不能生存还是个问题，根本没有多余的精力去处理项目的代码质量还有架构设计，这时候就真的很需要一些开箱即用的通用服务了。
-
-其实，现在还有很多类似的 IT 公司，都是一开始单体应用，所有功能代码杂糅在一起，那个代码质量真的不敢恭维。。。
-毕竟对这些公司来说，梳理代码带来的效益很低，更不可能一开始就上什么微服务的架构，也没必要一开始就把项目设计成很庞大的微服务架构。
-
-但是，一些通用的功能几乎是每个公司项目都会用到的，我就觉得可以做成独立的服务，比如说邮件功能，独立出服务就比抽取成类库要好。
-毕竟，如果独立出服务并使用 http 接口的话，后期就可以很方便地进行横向扩展，比如使用 nginx 进行负载均衡。
-
-我还是要再强调一次，这个计划内的所有项目并不是为了支持百万并发（如果你都到了百万并发的级别了，估计早就已经有自己的通用服务了），
-而是让那些小型项目可以在最短的时间内整合到一些通用功能。
-
-假设你打算创建一个带有文件存储和邮件发送功能的项目，就可以直接使用这个计划内的项目，
-直接部署运行就可以在你的业务中整合进文件存储和邮件发送的功能了，你甚至都不需要写一行关于文件存储和邮件发送实现相关的代码，只需要关注本身的业务即可。
-
-这些服务也是我个人服务器上会安装并使用到的服务，你呢？
+These services are also my using services in personal server, and you?
 
 ### Who Is Using
 (coming soon)
